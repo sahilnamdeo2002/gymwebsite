@@ -1,0 +1,40 @@
+/* Navbar.css */
+.navbar {
+  scroll-behavior: smooth;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+ 
+  backdrop-filter: blur(2px); /* Optional: Blur effect */
+  z-index: 1000; /* Make sure the navbar stays on top */
+}
+
+.brand {
+  font-size: 1.5rem;
+  color: #333; /* Adjust color for readability */
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-items li {
+  cursor: pointer;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #333; /* Adjust color for readability */
+  transition: color 0.3s ease;
+}
+
+.nav-items li a:hover {
+  color: #ff4081; /* Change to your desired hover color */
+}
