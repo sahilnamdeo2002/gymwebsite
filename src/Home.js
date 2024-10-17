@@ -2,23 +2,6 @@ import React from 'react'
 import "./Home.css";
 // import image from "../images/gym.jpg";
 
-// Sample Data
-const classSchedule = [
-    { id: 1, className: 'Yoga', instructor: 'Alice', time: '8:00 AM - 9:00 AM' },
-    { id: 2, className: 'Pilates', instructor: 'Bob', time: '10:00 AM - 11:00 AM' },
-    { id: 3, className: 'Spin Class', instructor: 'Charlie', time: '5:00 PM - 6:00 PM' },
-];
-
-const testimonials = [
-    { id: 1, name: 'John Doe', feedback: 'Great gym! I love the community and the trainers.' },
-    { id: 2, name: 'Jane Smith', feedback: 'I achieved my fitness goals thanks to the personal training!' },
-];
-
-const progressData = [
-    { date: '2024-01-01', weight: 180, workoutHours: 5 },
-    { date: '2024-02-01', weight: 170, workoutHours: 10 },
-];
-
 
 
 const Home = () => {
@@ -31,6 +14,9 @@ const Home = () => {
 
 
             <div id='home'>
+
+
+
                 <div class="flash-card-row">
                     <div class="flash-card">
                         <div class="flash-card-content">
@@ -56,6 +42,9 @@ const Home = () => {
                             <button class="flash-card-btn">Sign Up</button>
                         </div>
                     </div>
+
+
+
                 </div>
 
             </div>
@@ -64,9 +53,6 @@ const Home = () => {
 
             <div id="features">
            
-
-
-
             </div>
         </div>
 
